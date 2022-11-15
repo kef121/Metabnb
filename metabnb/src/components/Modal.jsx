@@ -12,7 +12,7 @@ const Modal = ({ isVisible, onClose}) => {
     
     <div>
          {/*   Modal*/ }
-      <div  className='font-RedRose fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center' onClick={(handleClose)} id="wrapper">
+      <div  className='font-RedRose z-50 fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center' onClick={(handleClose)} id="wrapper">
         <div className='w-[400px] md:w-[500px] '>
           <div className='bg-white rounded-lg h-64 '>
             <div className='flex flex-row justify-between items-center p-2 px-4 md:px-6'>

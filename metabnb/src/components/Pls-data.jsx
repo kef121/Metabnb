@@ -1,6 +1,6 @@
 import React from "react"
-import Nfts from "./Community"
-
+import Placetostay from "./Placetostay"
+import Pls from './Pls-header'
 
 const imageData = [
    {
@@ -169,13 +169,13 @@ const imageData = [
 const Data = () => {
    
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h1 className='items-center justify-center text-3xl font-bold pb-6 '>Inspiration for your next adventure</h1>
+    <div className="z-0">
+        <Pls />
        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
          {imageData.map(img =>
             (
 
-               <Nfts 
+               <Placetostay 
                  key={img.id}
                  img={img.img}
                  title={img.title}

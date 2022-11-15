@@ -91,7 +91,8 @@ const Data = () => {
    
   return (
     <div >
-      <div className="flex flex-col items-center justify-center">
+      
+      <div className="flex flex-col items-center justify-center" >
       <h1 className='px-4 text-3xl  font-bold pt-4 pb-6 '>Inspiration for your next adventure</h1>
       </div>
        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
