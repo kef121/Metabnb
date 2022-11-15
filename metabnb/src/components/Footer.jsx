@@ -44,7 +44,7 @@ const Footer = () => {
             </ul>
         </div>
         </div>
-        <p className='text-[15px] pl-9 pb-4 px-4 '>&#169; 2022 Metabnb</p>
+        <p className='text-[15px] pl-9 pb-4 px-4 '> &#169; 2022 Metabnb</p>
 
     </div>
   )
